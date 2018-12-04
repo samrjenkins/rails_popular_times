@@ -16,6 +16,9 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'watir'
+gem 'chromedriver-helper'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

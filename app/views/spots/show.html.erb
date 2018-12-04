@@ -1,0 +1,6 @@
+<% @days.each do |day, times| %>
+  <h2><%= day %></h2>
+  <% times.each do |time, datum| %>
+    <p><strong><%= time %></strong><%= datum %></p>
+  <% end %>
+<% end %>
