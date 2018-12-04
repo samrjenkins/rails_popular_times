@@ -1,4 +1,16 @@
-<%= form_tag('spots', method: :get) do %>
-  <%= text_field_tag(:query) %>
-  <%= submit_tag("Search") %>
-<% end %>
+<div id="home">
+  <div class="banner" style="background-image: url(<%= image_path('banner') %>)">
+    <div class="filter"></div>
+    <div class="contents">
+      <div class="align">
+        <h1>Busy<span class="space"></span><span>?</span></h1>
+      </div>
+      <%= form_tag('spots', method: :get) do %>
+        <div class="form-group">
+          <%= text_field_tag(:query, nil, class: "form-control", placeholder: "Enter location...") %>
+        </div>
+        <%= submit_tag("Search", class: "form-control") %>
+      <% end %>
+    </div>
+  </div>
+</div>

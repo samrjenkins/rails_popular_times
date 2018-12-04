@@ -1,0 +1,38 @@
+.banner {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .contents {
+    position: absolute;
+    .align {
+      display: flex;
+      align-items: center;
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin: none;
+        font-family: 'Linotte-SemiBold';
+        font-size: 80px;
+        letter-spacing: 8px;
+        span {
+          font-size: 200px;
+          color: #3ECAE8;
+        }
+        span.space {
+          width: 16px;
+        }
+      }
+    }
+    text-align: center;
+  }
+  .filter {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgba(0,0,0,0.6), transparent);
+    position: absolute;
+  }
+}

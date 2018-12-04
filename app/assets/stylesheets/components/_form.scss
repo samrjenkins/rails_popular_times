@@ -1,0 +1,27 @@
+#home {
+  form {
+    input {
+      background-color: transparent;
+      color: #e9f3fc;
+      text-align: center;
+    }
+    input:focus {
+      background-color: rgba(0,0,0,0.2);
+      color: #66afe9;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(190,190,190);
+    opacity: 1; /* Firefox */
+    font-style: italic;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(190,190,190);
+    font-style: italic;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(190,190,190);
+    font-style: italic;
+    }
+  }
+}
