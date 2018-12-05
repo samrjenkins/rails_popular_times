@@ -1,7 +1,7 @@
 class Scraper < ApplicationRecord
   def self.run(query)
     # require 'watir'
-    browser = Watir::Browser.new
+    browser = Watir::Browser.new :chrome, headless: true
 
     # p "What venue would you like to search for?"
     # venue = gets.chomp
